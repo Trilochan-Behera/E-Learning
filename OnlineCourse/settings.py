@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '&x*q8yyrw!r(48n*pd&g2j4$ip0c%$+b6@^@jaktyn!sj_tlsi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://elearning-educator.herokuapp.com/','localhost']
 
 
 # Application definition
